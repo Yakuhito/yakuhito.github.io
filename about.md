@@ -13,7 +13,7 @@ I prefer the confort of my sofa, but sometimes certain people trick me into leav
 
 ### Tea
 
-I really don't like coffee. However, I consider myself a tea addict. My favourite flavour is orange & rooibos. If you want to mak me happy, any tea will do the trick.
+I really don't like coffee. However, I consider myself a tea addict. My favourite flavour is orange & rooibos. If you want to make me happy, any tea will do the trick.
 
 ### Science Fiction
 
