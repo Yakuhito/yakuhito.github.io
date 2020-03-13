@@ -39,9 +39,5 @@ I was also a member of Romania's 2019 ECSC team, which [managed to win the first
 
 ### Hack The Box
 
-After getting my OSCP, I started rooting boxes on HTB. You can find my profile below.
-
-<script src="https://www.hackthebox.eu/badge/180953"></script>
-<a href="https://www.hackthebox.eu/home/users/profile/180953">Link for registered users</a> | 
-<a href="https://www.hackthebox.eu/profile/180953">Public profile</a>
-<br>
+After getting my OSCP, I started rooting boxes on HTB. You can find my profile at the bottom of this page.
+Also, if you didn't crack the Invite challenge, [here's the public link for non-regisered users](https://www.hackthebox.eu/profile/180953).

@@ -17,19 +17,8 @@ avatar: https://github.com/Yakuhito/yakuhito.github.io/raw/master/yaku.jpg
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email: y@kuhi.to
-  facebook:
-  flickr:
-  github:
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
   twitter: yakuh1t0
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  reddit: yakuhito
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
