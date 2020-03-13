@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Since a lot of people [had already doxed me](https://ctftime.org/task/10045), here's some info you might be interested in.
+Since a lot of people [have already doxed me](https://ctftime.org/task/10045), here's some info you might be interested in.
 
 ### Travel
-I prefer the confort of my sofa, but sometimes certain people trick me into leaving it temporarily. Here's a (hopefully updated) map of the places I've been to:
+I prefer the comfort of my sofa, but sometimes certain people trick me into leaving it temporarily. Here's a (hopefully updated) map of the places I've been to:
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1xLi8WOekCvSJco7Ek1b_hVyaRtYfhjGI" width="640" height="480"></iframe>
 
