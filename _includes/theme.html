@@ -33,7 +33,7 @@ function updateLinks(theme) {
 	}
 	let as = document.querySelectorAll("a");
 	for (let i = 0; i < as.length; i++) {
-		if((!as[i].classList.contains("post-date")) && as[i].id != "theme-toggle") {
+		if((!as[i].classList.contains("post-date")) && as[i].id != "theme-toggle" && as[i].id != 'htb-badge') {
 			as[i].style.textDecoration = txt_dec;
 		}
 	}
