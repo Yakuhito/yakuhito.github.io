@@ -6,55 +6,8 @@
 //
 
 @import "reset";
+@import "variables";
 // Syntax highlighting @import is at the bottom of this file
-
-// Former _variables.css
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
-
-
-html, html[data-theme="light"] {
-  --heading: #000000;
-  --special: #42dafa;
-  --blue: #42dafa;
-  --black: #000;
-  --darkerGray: #222;
-  --darkGray: #333;
-  --gray: #666;
-  --code-color: #333;
-  --lightGray: #eee;
-  --white: #fff;
-  --lineColor: #eee;
-  --siteTheme: #333;
-  --post-title: #000000;
-  --code-bg-color: #efefef;
-}
-
-html[data-theme="dark"] {
-  --heading: #42ff20;
-  --special: #42ff20;
-  --blue: #42ff20;
-  --black: #42ff20;
-  --darkerGray: #42ff20;
-  --darkGray: #42be42;
-  --gray: #42ff20;
-  --code-color: #444;
-  --lightGray: #111;
-  --white: #000;
-  --lineColor: #42ff20;
-  --siteTheme: #42ff20;
-  --post-title: #42ff20;
-  --code-bg-color: #d1d1d1;
-}
 
 /**************/
 /* BASE RULES */
@@ -65,13 +18,13 @@ html {
 }
 
 body {
-	background: var(--white);
+	background: $white;
   font: 18px/1.4 $helvetica;
-  color: var(--darkGray);
+  color: $darkGray;
 }
 
 h1.page-heading {
-  color: var(--heading);
+  color: $heading;
 }
 
 ul.posts {
@@ -80,7 +33,7 @@ ul.posts {
 }
 
 span.special-colour {
-  color: var(--special);
+  color: $special;
   font-weight: 600;
 }
 
@@ -88,12 +41,12 @@ a.post-date, a.post-date:hover {
   text-decoration: none;
   font-style: italic;
   font-size: 13px;
-  color: var(--gray);
+  color: $gray;
   font-weight: 500;
 }
 
 a.post-entry {
-  color: var(--post-title);
+  color: $black;
   // suggested by trupples :heart:
   // font-weight: 600;
 }
@@ -111,7 +64,7 @@ a.post-entry {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: var(--darkerGray);
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -140,22 +93,21 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: var(--gray);
+  color: $gray;
 }
 
 p {
   margin: 15px 0;
 }
 
-a{
-  color: var(--blue);
+a {
+  color: $blue;
   text-decoration: none;
-  cursor: pointer;
+	cursor: pointer;
   &:hover, &:active {
-    color: var(--special);
+    color: $special;
   }
 }
-
 
 ul, ol {
   margin: 15px 0;
@@ -197,17 +149,17 @@ img {
 
 .date {
   font-style: italic;
-  color: var(--gray);
+  color: $gray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: var(--black);
-  background: var(--lightGray);
+  color: $black;
+  background: $lightGray;
 }
 ::selection {
-  color: var(--black);
-  background: var(--lightGray);
+  color: $black;
+  background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -236,15 +188,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid var(--lineColor);
-
-  @include mobile {
-    text-align: center;
-  }
-}
-
-.mastfooter {
-  border-top: 1px solid var(--lineColor);
+  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -280,7 +224,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: var(--siteTheme);
+  color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -290,7 +234,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: var(--gray);
+  color: $gray;
   font-size: 16px;
 
   @include mobile {
@@ -313,14 +257,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: var(--darkGray);
+    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: var(--blue);
+      color: $blue;
     }
   }
 }
@@ -331,7 +275,7 @@ nav {
 
 .posts > .post {
   // padding-bottom: 2em;
-  // border-bottom: 1px solid var(--lightGray);
+  // border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
@@ -342,9 +286,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid var(--gray);
+    border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: var(--gray);
+    color: $gray;
     font-size: 22px;
     font-style: italic;
   }
@@ -363,7 +307,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: var(--lightGray);
+  background-color: $lightGray;
 }
 
 footer {
@@ -373,23 +317,5 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-
-.highlight {
-  color: var(--code-color);
-  background-color: var(--code-bg-color);
-  padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
-  overflow: scroll;
-}
-
-code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-}
-
-
 @import "highlights";
 @import "svg-icons";

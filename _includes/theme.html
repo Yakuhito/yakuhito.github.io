@@ -1,0 +1,84 @@
+<!-- Special thanks to https://derekkedziora.com/blog/dark-mode-revisited -->
+
+<a id="theme-toggle" onclick="modeSwitcher()" style='text-decoration: none'></a>
+
+<script>
+// this checks whether system dark mode is set 
+let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+// this checks for session storage telling to override
+// the system preferences 
+let theme = sessionStorage.getItem('theme');
+if (systemInitiatedDark.matches) {
+	document.getElementById("theme-toggle").innerHTML = "Theme: 31337";// Light
+} else {
+	document.getElementById("theme-toggle").innerHTML = "Theme: Hooloovoo"; // Dark
+}
+
+function prefersColorTest(systemInitiatedDark) {
+  if (systemInitiatedDark.matches) {
+  	document.documentElement.setAttribute('data-theme', 'dark');		
+   	document.getElementById("theme-toggle").innerHTML = "Theme: 31337";
+   	// this clears the session storage 
+   	sessionStorage.setItem('theme', '');
+  } else {
+  	document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("theme-toggle").innerHTML = "Theme: Hooloovoo";
+    sessionStorage.setItem('theme', '');
+  }
+}
+systemInitiatedDark.addListener(prefersColorTest);
+
+function updateLinks(theme) {
+	let txt_dec = "none";
+	if(theme == "dark") {
+		txt_dec = 'underline';
+	}
+	let as = document.querySelectorAll("a");
+	for (let i = 0; i < as.length; i++) {
+		if((!as[i].classList.contains("post-date")) && as[i].id != "theme-toggle") {
+			as[i].style.textDecoration = txt_dec;
+		}
+	}
+}
+
+function switchToLight() {
+	document.getElementById("site-name").innerHTML = "<a href='{{ site.baseurl }}/'>yakuhito's blog</a>";
+	document.documentElement.setAttribute('data-theme', 'light');
+	sessionStorage.setItem('theme', 'light');
+	document.getElementById("theme-toggle").innerHTML = "Theme: Hooloovoo";
+	updateLinks("light");
+}
+
+function switchToDark() {
+	document.getElementById("site-name").innerHTML = "<a href='{{ site.baseurl }}/'>y@kuhi.to$ ./blog</a>";
+	document.documentElement.setAttribute('data-theme', 'dark');
+	sessionStorage.setItem('theme', 'dark');
+	document.getElementById("theme-toggle").innerHTML = "Theme: 31337";
+	updateLinks("dark");
+}
+
+function modeSwitcher() {
+// it's important to check for overrides again 
+	let theme = sessionStorage.getItem('theme');
+	// checks if reader selected dark mode 
+	if (theme === "dark") {
+		switchToLight();
+		// checks if reader selected light mode 
+	}	else if (theme === "light") {
+		switchToDark();
+		// checks if system set dark mode 
+	} else if (systemInitiatedDark.matches) {	
+		switchToLight();
+		// the only option left is system set light mode
+	} else {
+		switchToDark();
+	}
+}
+
+if (theme === "dark") {
+	switchToDark();	
+} else if (theme === "light") {
+	switchToLight();
+}
+updateLinks(theme);
+</script>
