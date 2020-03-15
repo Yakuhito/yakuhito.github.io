@@ -5,6 +5,9 @@
 # Name of your site (displayed in the header)
 name: yakuhito's blog
 
+# SEO
+tagline: cybersecurity and [redacted]
+
 # Short bio or description (displayed in the header)
 description: cybersecurity and [redacted]
 
@@ -65,6 +68,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag # seo
 
 # Exclude these files from your production _site
 exclude:
