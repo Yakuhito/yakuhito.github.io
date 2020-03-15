@@ -1,9 +1,10 @@
 ---
-title: 'Craft &#8211; HTB WriteUp'
+title: Craft
 author: yakuhito
 layout: post
 permalink: craft_htb_writeup
 image: /images/craft_htb_writeup/craft_htb_writeup.png
+category: htb
 ---
 ## Summary
 

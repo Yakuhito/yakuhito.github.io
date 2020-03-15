@@ -4,6 +4,7 @@ author: yakuhito
 layout: post
 permalink: redpwn_ctf_2019_writeup
 image: /images/redpwn_ctf_2019_writeup/redpwn_ctf_2019_writeup.png
+category: blog
 ---
 Over the past few days, my team and I participated in Redpwn CTF 2019. We came out fourth and we enjoyed the experience.
 

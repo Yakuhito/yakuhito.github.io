@@ -4,6 +4,7 @@ author: yakuhito
 layout: post
 permalink: /hello-world/
 image: /images/hello_world/hello_world.jpg
+category: blog
 ---
  
 

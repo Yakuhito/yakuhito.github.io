@@ -4,6 +4,7 @@ author: yakuhito
 layout: post
 permalink: building_a_voting_system_with_python
 image: /images/building_a_voting_system_with_python/building_a_voting_system_with_python.jpg
+category: blog
 ---
 What if you could vote the next president of your country using an app on your phone?
 

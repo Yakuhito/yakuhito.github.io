@@ -1,9 +1,10 @@
 ---
-title: 'Wall &#8211; HTB WriteUp'
+title: Wall
 author: yakuhito
 layout: post
 permalink: wall_htb_writeup
 image: /images/wall_htb_writeup/wall_htb_writeup.png
+category: htb
 ---
  
 

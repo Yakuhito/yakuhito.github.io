@@ -4,6 +4,7 @@ author: yakuhito
 layout: post
 permalink: picoctf_2019_general_skills_writeup
 image: /images/picoctf_2019_general_skills_writeup/picoctf_2019_general_skills_writeup.png
+category: blog
 ---
 ## Contents
 

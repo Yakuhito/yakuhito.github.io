@@ -1,9 +1,10 @@
 ---
-title: 'Jarvis &#8211; HTB WriteUp'
+title: Jarvis
 author: yakuhito
 layout: post
 permalink: jarvis_htb_writeup
 image: /images/jarvis_htb_writeup/jarvis_htb_writeup.png
+category: htb
 ---
 Note: This is my first HTB writeup, so opinions are more than welcome.
 

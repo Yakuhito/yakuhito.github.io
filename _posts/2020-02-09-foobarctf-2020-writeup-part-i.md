@@ -4,6 +4,7 @@ author: yakuhito
 layout: post
 permalink: foobarctf_2020_writeup_part_i
 image: /images/foobarctf_2020_writeup_part_i/foobarctf_2020_writeup_part_i.jpg
+category: blog
 ---
  
 

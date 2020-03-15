@@ -1,9 +1,10 @@
 ---
-title: 'Networked &#8211; HTB WriteUp'
+title: Networked
 author: yakuhito
 layout: post
 permalink: networked_htb_writeup
 image: /images/networked_htb_writeup/networked_htb_writeup.png
+category: htb
 ---
  
 

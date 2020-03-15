@@ -1,9 +1,10 @@
 ---
-title: 'RSA: Encryption, Signatures and Blind Signatures for 5th Graders'
+title: 'RSA: Encryption, Signatures and Blind Signatures'
 author: yakuhito
 layout: post
 permalink: rsa_encryption_signatures_and_blind_signatures
 image: /images/rsa_encryption_signatures_and_blind_signatures/rsa_encryption_signatures_and_blind_signatures.jpg
+category: blog
 ---
 <blockquote>
   <p>

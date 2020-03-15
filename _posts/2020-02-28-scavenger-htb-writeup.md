@@ -1,9 +1,10 @@
 ---
-title: 'Scavenger &#8211; HTB WriteUp'
+title: Scavenger
 author: yakuhito
 layout: post
 permalink: scavenger_htb_writeup
 image: /images/scavenger_htb_writeup/scavenger_htb_writeup.png
+category: htb
 ---
  
 

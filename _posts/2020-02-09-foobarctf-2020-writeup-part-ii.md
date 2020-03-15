@@ -4,7 +4,9 @@ author: yakuhito
 layout: post
 permalink: foobarctf_2020_writeup_part_ii
 image: /images/foobarctf_2020_writeup_part_ii/foobarctf_2020_writeup_part_ii.jpg
+category: blog
 ---
+
 As I said in [part I](https://blog.kuhi.to/foobarctf_2020_writeup_part_i), I participated in this year’s FooBarCTF. This writeup will include all the challenges from the most interesting category: shell. As a wanna-be pentester, I would love to see more CTFs include this category.
 
 ## Legend

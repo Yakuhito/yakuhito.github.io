@@ -23,6 +23,37 @@ body {
   color: $darkGray;
 }
 
+h1.page-heading {
+  color: $heading;
+}
+
+ul.posts {
+  line-height: 1.4;
+  list-style-type: none;
+}
+
+span.special-colour {
+  color: $special;
+  font-weight: 600;
+}
+
+a.post-date, a.post-date:hover {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 13px;
+  color: $gray;
+  font-weight: 500;
+}
+
+a.post-entry {
+  color: $black;
+  font-weight: 600;
+}
+
+.post-image {
+  border-radius:0.5em;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -73,7 +104,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $special;
   }
 }
 
@@ -242,13 +273,13 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  // padding-bottom: 2em;
+  // border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  // padding-bottom: 1em;
+  // border-bottom: none;
 }
 
 .post {

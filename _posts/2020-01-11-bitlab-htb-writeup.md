@@ -1,9 +1,10 @@
 ---
-title: 'Bitlab &#8211; HTB WriteUp'
+title: Bitlab
 author: yakuhito
 layout: post
 permalink: bitlab_htb_writeup
 image: /images/bitlab_htb_writeup/bitlab_htb_writeup.png
+category: htb
 ---
  
 
