@@ -79,3 +79,5 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-hacker
+
+future: true

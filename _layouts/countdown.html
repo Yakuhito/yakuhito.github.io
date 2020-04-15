@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    <h2 class="countdown-text" style="font-weight: normal;">This post will be published in:</h2>
+    <center>
+    	<canvas id="c1" class="blue" width="175" height="175"></canvas>
+    	<canvas id="c2" width="175" height="175"></canvas>
+    </center>
+  </div>
+
+</article>
+
+{{ content }}
+
+<script>
+var c1 = document.getElementById('c1');
+var c2 = document.getElementById('c2');
+function updateTime() {
+	var date_now = new Date();
+	var seconds = Math.floor((release_date.getTime() - date_now.getTime()) / 1000);
+	if(document.getElementById("theme-toggle").innerHTML == "Theme: Hooloovoo") {
+		draw(c2, seconds % 10000);
+		draw(c1, Math.floor(seconds / 10000) % 10000, "#42dafa");
+	} else {
+		draw(c2, seconds % 10000, "#42ff20");
+		draw(c1, Math.floor(seconds / 10000) % 10000, "#42ff20");
+	}
+}
+
+// for those who can't read the countdown
+console.log("Countdown to: ", release_date);
+
+setInterval(updateTime, 1000);
+
+
+/* Code made by yakuhito, feel free to steal it :P */
+function draw(c, number, color = "#000000") {
+	var ctx = c.getContext("2d");
+	ctx.lineWidth = c.width * 0.042;
+	ctx.lineCap = "round";
+	ctx.strokeStyle = color;
+	var x_coef = c.width / 350;
+	var y_coef = c.height / 350;
+	ctx.clearRect(0, 0, c.width, c.height);
+	ctx.beginPath();
+	ctx.moveTo(175 * x_coef, 25 * y_coef);
+	ctx.lineTo(175 * x_coef, 325 * y_coef);
+	draw_digit(ctx, number % 10, 175 * x_coef, 25 * y_coef, 100 * x_coef, 100 * y_coef);
+	draw_digit(ctx, Math.floor(number / 10) % 10, 175 * x_coef, 25 * y_coef, -100 * x_coef, 100 * y_coef);
+	draw_digit(ctx, Math.floor(number / 100) % 10, 175 * x_coef, 325 * y_coef, 100 * x_coef, -100 * y_coef);
+	draw_digit(ctx, Math.floor(number / 1000) % 10, 175 * x_coef, 325 * y_coef, -100 * x_coef, -100 * y_coef);
+	ctx.stroke();
+}
+
+function draw_digit(ctx, digit, x, y, lx, ly) {
+	if(typeof digit !== 'number' || digit < 0 || digit > 9) { return; }
+	window['draw' + digit.toString()](ctx, x, y, lx, ly);
+}
+
+function draw0(ctx, x, y, lx, ly) {}
+function draw1(ctx, x, y, lx, ly) { ctx.moveTo(x, y);ctx.lineTo(x + lx, y); }
+function draw2(ctx, x, y, lx, ly) { ctx.moveTo(x, y + ly);ctx.lineTo(x + lx, y + ly); }
+function draw3(ctx, x, y, lx, ly) {ctx.moveTo(x, y);ctx.lineTo(x + lx, y + ly); }
+function draw4(ctx, x, y, lx, ly) { ctx.moveTo(x, y + ly);ctx.lineTo(x + lx, y); }
+function draw5(ctx, x, y, lx, ly) { ctx.moveTo(x, y);ctx.lineTo(x + lx, y);ctx.lineTo(x, y + ly); }
+function draw6(ctx, x, y, lx, ly) { ctx.moveTo(x + lx, y);ctx.lineTo(x + lx, y + ly); }
+function draw7(ctx, x, y, lx, ly) { ctx.moveTo(x, y);ctx.lineTo(x + lx, y);ctx.lineTo(x + lx, y + ly); }
+function draw8(ctx, x, y, lx, ly) { ctx.moveTo(x, y + ly);ctx.lineTo(x + lx, y + ly);ctx.lineTo(x + lx, y); }
+function draw9(ctx, x, y, lx, ly) { ctx.moveTo(x, y);ctx.lineTo(x + lx, y);ctx.lineTo(x + lx, y + ly);ctx.lineTo(x, y + ly); }
+</script>
