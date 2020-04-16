@@ -1,5 +1,5 @@
 ---
-title: Mango
+title: Mango &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: countdown
 permalink: mango_htb_writeup

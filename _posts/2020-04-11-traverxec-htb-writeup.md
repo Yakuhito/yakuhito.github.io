@@ -1,5 +1,5 @@
 ---
-title: Traverxec
+title: Traverxec &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: traverxec_htb_writeup

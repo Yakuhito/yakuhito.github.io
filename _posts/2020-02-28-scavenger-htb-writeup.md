@@ -1,5 +1,5 @@
 ---
-title: Scavenger
+title: Scavenger &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: scavenger_htb_writeup

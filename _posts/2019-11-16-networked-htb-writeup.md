@@ -1,5 +1,5 @@
 ---
-title: Networked
+title: Networked &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: networked_htb_writeup

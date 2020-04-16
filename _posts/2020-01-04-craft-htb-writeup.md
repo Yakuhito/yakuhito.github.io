@@ -1,5 +1,5 @@
 ---
-title: Craft
+title: Craft &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: craft_htb_writeup

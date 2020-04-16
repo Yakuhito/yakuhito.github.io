@@ -1,5 +1,5 @@
 ---
-title: Forest
+title: Forest &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: forest_htb_writeup

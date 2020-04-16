@@ -1,5 +1,5 @@
 ---
-title: 'Redpwn CTF 2019 &#8211; Writeup'
+title: 'Redpwn CTF 2019 &#8211; WriteUp'
 author: yakuhito
 layout: post
 permalink: redpwn_ctf_2019_writeup

@@ -1,5 +1,5 @@
 ---
-title: Bitlab
+title: Bitlab &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: bitlab_htb_writeup

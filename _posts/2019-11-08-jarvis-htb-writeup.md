@@ -1,5 +1,5 @@
 ---
-title: Jarvis
+title: Jarvis &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: jarvis_htb_writeup

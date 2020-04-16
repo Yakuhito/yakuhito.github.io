@@ -1,5 +1,5 @@
 ---
-title: Registry
+title: Registry &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: registry_htb_writeup
