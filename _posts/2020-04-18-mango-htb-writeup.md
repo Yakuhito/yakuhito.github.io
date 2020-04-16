@@ -3,7 +3,7 @@ title: Mango
 author: yakuhito
 layout: countdown
 permalink: mango_htb_writeup
-image: /images/mango_htb_writeup/mango_htb_writeup.jpeg
+image: /images/mango_htb_writeup.jpeg
 category: countdown
 ---
 
