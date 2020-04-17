@@ -23,7 +23,7 @@ var c2 = document.getElementById('c2');
 function updateTime() {
 	var date_now = new Date();
 	var seconds = Math.floor((release_date.getTime() - date_now.getTime()) / 1000);
-	if(document.getElementById("theme-toggle").innerHTML == "Theme: Hooloovoo") {
+	if(document.getElementById("theme-toggle") == null || document.getElementById("theme-toggle").innerHTML == "Theme: Hooloovoo") {
 		draw(c2, seconds % 10000);
 		draw(c1, Math.floor(seconds / 10000) % 10000, "#42dafa");
 	} else {
