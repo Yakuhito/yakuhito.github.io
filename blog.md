@@ -11,7 +11,7 @@ permalink: /blog/
   	  	<li class="post">
  				<span class="special-colour">>> </span>
    				<a href="{{ site.baseurl }}{{ post.url }}" class="post-entry">{{ post.title }} </a>
-    			<a class="post-date"> ({{ post.date | date: "%B %e, %Y" }}) </a>
+    			<span class="post-date"> ({{ post.date | date: "%B %e, %Y" }}) </span>
     	</li>
   {% endfor %}
 	</ul>

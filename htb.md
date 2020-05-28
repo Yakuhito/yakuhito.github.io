@@ -12,7 +12,7 @@ permalink: /htb/
   	  	<li class="post">
  				<span class="special-colour">>> </span>
    				<a href="{{ site.baseurl }}{{ post.url }}" class="post-entry">{{ title | first }}</a>
-    			<a class="post-date"> ({{ post.date | date: "%B %e, %Y" }}) </a>
+    			<span class="post-date"> ({{ post.date | date: "%B %e, %Y" }}) </span>
     	</li>
   {% endfor %}
 	</ul>
