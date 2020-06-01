@@ -9,7 +9,7 @@ category: blog
 ## Introduction
 As a beginner in the CTF world, I just skipped the 'pwn' and 'rev' categories. The challenges seemed too hard for me to solve. This year, however, I decided that I needed to improve and be able to at least solve some basic ones. With that in mind, I participated to [Sin__](https://twitter.com/mztropics)'s beginner rev course, which included as much pwn concepts as reversing ones. When I saw the baby-rop challege during the ECSC 2020 Quals, I knew I needed to solve it.
 
-EDIT: It is worth mentioning that one_gadget is not the ideal tool in this situation because the newer versions of libc introduce a lot of constraints. The easiest solution would be to use system() from libc with "/bin/sh" as an argument, as I'll show in my next article.
+EDIT: It is worth mentioning that one_gadget is not the ideal tool in this situation because the newer versions of libc introduce a lot of constraints. The easiest solution would be to use system() from LIBC with "/bin/sh" as an argument.
 
 ## Mission Briefing
 
