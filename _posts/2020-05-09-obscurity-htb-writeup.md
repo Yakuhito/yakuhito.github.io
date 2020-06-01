@@ -3,7 +3,7 @@ title: Obscurity &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: obscurity_htb_writeup
-image: /images/obscurity_htb_writeup.png
+image: /images/obscurity_htb_writeup/obscurity_htb_writeup.png
 category: htb
 ---
 

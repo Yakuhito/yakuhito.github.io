@@ -3,7 +3,7 @@ title: OpenAdmin &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: openadmin_htb_writeup
-image: /images/openadmin_htb_writeup.jpeg
+image: /images/openadmin_htb_writeup/openadmin_htb_writeup.jpeg
 category: htb
 ---
 

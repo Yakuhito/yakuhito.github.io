@@ -3,7 +3,7 @@ title: Mango &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: mango_htb_writeup
-image: /images/mango_htb_writeup.jpeg
+image: /images/mango_htb_writeup/mango_htb_writeup.jpeg
 category: htb
 ---
  

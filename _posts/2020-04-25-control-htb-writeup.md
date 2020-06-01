@@ -3,7 +3,7 @@ title: Control &#8211; HackTheBox WriteUp
 author: yakuhito
 layout: post
 permalink: control_htb_writeup
-image: /images/control_htb_writeup.jpg
+image: /images/control_htb_writeup/control_htb_writeup.jpg
 category: htb
 ---
 
