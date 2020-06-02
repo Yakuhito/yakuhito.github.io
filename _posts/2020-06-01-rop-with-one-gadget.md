@@ -575,7 +575,7 @@ $ cat flag
 {% endhighlight %}
 
 ## Conclusion
-Even though this challenge had the word 'baby' in its title, it took me about 5 hours to solve it. You can find the scripts used in this [on my GitHub](https://github.com/Yakuhito/rop-with-one-gadget/). As always, you can message me on Twitter with any questions you might have.
+Even though this challenge had the word 'baby' in its title, it took me about 5 hours to solve it. You can find the scripts used in this article [on my GitHub](https://github.com/Yakuhito/rop-with-one-gadget/). As always, you can message me on Twitter with any questions you might have.
 
 Until next time, hack the world.
 
