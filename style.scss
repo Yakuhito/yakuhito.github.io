@@ -37,6 +37,7 @@ html, html[data-theme="light"] {
   --siteTheme: #333;
   --post-title: #000000;
   --code-bg-color: #efefef;
+  --selection: #42dafa;
 }
 
 html[data-theme="dark"] {
@@ -54,6 +55,7 @@ html[data-theme="dark"] {
   --siteTheme: #42ff20;
   --post-title: #42ff20;
   --code-bg-color: #d1d1d1;
+  --selection: blue;
 }
 
 /**************/
@@ -208,11 +210,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: var(--black);
-  background: var(--lightGray);
+  background: var(--selection);
 }
 ::selection {
   color: var(--black);
-  background: var(--lightGray);
+  background: var(--selection);
 }
 
 // Nicolas Gallagher's micro clearfix hack
