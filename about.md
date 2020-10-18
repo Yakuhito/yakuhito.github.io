@@ -29,13 +29,13 @@ Cats. The Ancient Egyptians held them in the highest esteem. Cats are going to r
 
 ### Twitter Personality
 
-I like to think that I'm pretty popular on [Twitter](https://twitter.com/yakuh1t0). My follower count isn't high, but at least I managed to pass 100 followers.
+I like to think that I'm pretty popular on [Twitter](https://twitter.com/yakuh1t0). My follower count isn't high, but at least I managed to pass 300 followers.
 
 ### Capture-The-Flag Contests
 
 This is probably why you are here. In 2019, I was a member of [C0Br@](https://ctftime.org/team/70205). The same year I moved to [HTsP](https://ctftime.org/team/58218), and I've been playing CTFs with them ever since. HTsP is like a second family to me and I don't plan on leaving them anytime soon.
 
-I was also a member of Romania's 2019 ECSC team, which [managed to win the first place in the finals](https://ecsc.eu/archive). With some luck, I'll qualify for the 2020 team as well.
+I was also a member of Romania's 2019 ECSC team, which [managed to win the first place in the finals](https://ecsc.eu/archive). With some luck, I'll qualify for the 2020 team as well. (update: CORNAAAAAAAA)
 
 ### Hack The Box
 
