@@ -902,7 +902,7 @@ The challenge was created by Bit Sentinel.
 
 This was definetly one of my favorite challenges. Here's the source of the script that generated `enc_message`:
 
-{% highlight bash %}
+{% highlight python %}
 #!/usr/bin/python3
 import sys, random, binascii, hashlib, re, math, os
 from string import ascii_uppercase as asc
@@ -1095,7 +1095,7 @@ def enc4(text, key, debug=False):
 
 As you can see above, `enc4` is just an implementation of the [Rail fence cipher](https://en.wikipedia.org/wiki/Rail_fence_cipher). I could write a decryption function for railfence, or I could use the fact that this function also generates a permutation of the plaintext characters that is based only on the length of the plaintext and the key. That being said, the `dec4` function is almost identical to `dec1`:
 
-{% highlight bash %}
+{% highlight python %}
 def dec4(text, key, debug=False):
 	text = list(text)
 	dec = [0 for _ in range(len(text))]
