@@ -1316,7 +1316,7 @@ flag = postmessage(flag) # ok
 print(flag)
 {% endhighlight %}
 
-I do share the same beliefs as the author's father, but I use secure encryption methods.
+I do share the same beliefs as the author's father, but, unlike him, I use secure encryption methods.
 
 {% highlight bash %}
 yakuhito@furry-catstation:~/ctf/unbr1/lost-message$ python solve.py 
