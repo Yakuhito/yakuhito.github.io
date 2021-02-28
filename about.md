@@ -48,7 +48,7 @@ The next 'milestone' came when I managed to get selected for my country's Europe
 <center><p style="color: grey; font-size: 16px;">My father and I on the first day of the finals.</p></center>
 </div>
 
-After the finals were over, I started taking interest in pentesting. I managed to [pass the OSCP](https://www.offensive-security.com/offsec/meet-mihai-16-year-old-oscp-holder/) and then proceeded to [take](https://www.offensive-security.com/offsec/offensive-security-awae-oswe-review/) [AWAE](https://blog.kuhi.to/offsec-awae-oswe-review) and get the [OSCE](http://localhost:4000/offsec-ctp-osce-review) just before it 'retired'.
+After the finals were over, I started taking interest in pentesting. I managed to [pass the OSCP](https://www.offensive-security.com/offsec/meet-mihai-16-year-old-oscp-holder/) and then proceeded to [take](https://www.offensive-security.com/offsec/offensive-security-awae-oswe-review/) [AWAE](https://blog.kuhi.to/offsec-awae-oswe-review) and get the [OSCE](https://blog.kuhi.to/offsec-ctp-osce-review) just before it 'retired'.
 
 <div>
 <center><img class="post-image" src="/images/offsec-oscp.png"></center>
