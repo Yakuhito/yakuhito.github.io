@@ -11,10 +11,6 @@ permalink: /now
 I'm working on something (completely unrelated to infosec), but I'm not ready to 'launch it' yet. I'll update this page when I have more details :)
 
 
-## SAT Prep
-I took the SAT once, but the score I got was pretty disappointing. I would love to get accepted to a *certain* top university in the US<!-- its name starts with 'M' -->, so I have to study and get my scholastic aptitude tested again.
-
-
 ## CTFs
 I'll always be a member of [HTsP](https://ctftime.org/team/58218) - as I've said many times before, they're like a second family to me. That being said, I'm also a member of a newer team, [CodWer](https://ctftime.org/team/140521) - if you see us at a contest, don't hesitate to say 'hi'!
 
