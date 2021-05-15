@@ -8,7 +8,7 @@ permalink: /about
 <center><img style="border-radius: 50%; width: 300px;" src="/images/about/3.jpg"></center>
 </div>
 
-You've somehow managed to reach a part of the Internet about me. Also see: [my 'now' page](/now) and [Books I've Read](https://books.kuhi.to).
+You've somehow managed to reach a part of the Internet about me. Also see: [Books I've Read](https://books.kuhi.to).
 
 ## General Background
 I'm a 17 year old high school student from Romania. I grew up in a loving family, surrounded by all kinds of animals: cats, dogs, fish, birds (two crows, a cuckoo<!-- that sounds funny --> and a seagull), snakes, frogs, tortoise, and an iguanna.
@@ -19,10 +19,6 @@ I used to be a straight-A student in middle school, but that was a long time ago
 <center><img style="width: 75%;" src="/images/about/10.jpg"></center>
 <center><p style="color: grey; font-size: 16px;">Doing my physics project a few hours before it's due while participating at a hackathon.</p></center>
 </div>
-
-I usually prefer the comfort of my sofa, but sometimes certain people trick me into leaving it temporarily. Here's a (hopefully updated) map of the places I've been to:
-
-<center><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1xLi8WOekCvSJco7Ek1b_hVyaRtYfhjGI" width="75%" height="250px"></iframe></center>
 
 I also play the guitar - I'm still a beginner, so asking me to play something is the equivalent of making a death threat.
 
@@ -43,11 +39,6 @@ In case the posts on this blog aren't enough: I love doing cool stuff with compu
 
 The next 'milestone' came when I managed to get selected for my country's European CyberSecurity Competition (ECSC) team in 2019. I met a lot of very interesing people during the two bootcamps and Romania managed to win the 1st place during the finals.
 
-<div>
-<center><img style="width: 75%;" src="/images/about/6.jpg"></center>
-<center><p style="color: grey; font-size: 16px;">My father and I on the first day of the finals.</p></center>
-</div>
-
 After the finals were over, I started taking interest in pentesting. I managed to [pass the OSCP](https://www.offensive-security.com/offsec/meet-mihai-16-year-old-oscp-holder/) and then proceeded to [take](https://www.offensive-security.com/offsec/offensive-security-awae-oswe-review/) [AWAE](https://blog.kuhi.to/offsec-awae-oswe-review) and get the [OSCE](https://blog.kuhi.to/offsec-ctp-osce-review) just before it 'retired'.
 
 <div>
@@ -60,9 +51,6 @@ After the finals were over, I started taking interest in pentesting. I managed t
 <center><img class="post-image" src="/images/offsec-osce.png"></center>
 </div>
 
-That's pretty much it! Thanks for reading :)
+I'm now playing CTFs, rooting boxes on HackTheBox and working on acquiring other certifications from Offensive Security.
 
-<div>
-<center><img style="width: 75%;" src="/images/about/1.jpg"></center>
-<center><p style="color: grey; font-size: 16px;">PRO TIP: A DefCamp hat is perfect for hiding your quarantine haircut.</p></center>
-</div>
+That's pretty much it! Thanks for reading :)
