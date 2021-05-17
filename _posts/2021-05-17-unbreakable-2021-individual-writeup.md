@@ -537,9 +537,26 @@ for x in lines:
     print x
 {% endhighlight %}
 
-The device was an USB keyboard; the solve script just translates 'opcodes' into letters.
+The device was an USB keyboard; the script just translates 'opcodes' into letters. The output is 'Yu=6SD6mvD9dU!9B'. Using 'binwalk' on the packet capture file reveals an archive that can be extraced by using the string we found earlier as password:
 
-**Flag:** Yu=6SD6mvD9dU!9B
+{% highlight bash %}
+yakuhito@furry-catstation:~/ctf/unr21-ind$ binwalk -e task.pcap
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Libpcap capture file, little-endian, version 2.4, Unknown link layer, snaplen: 134217728
+1080581       0x107D05        Zip archive data, encrypted at least v2.0 to extract, compressed size: 72, uncompressed size: 69, name: flag.txt
+1080781       0x107DCD        End of Zip archive, footer length: 22
+
+yakuhito@furry-catstation:~/ctf/unr21-ind$ cp _task.pcap.extracted/107D05.zip ./flag.zip
+yakuhito@furry-catstation:~/ctf/unr21-ind$ unzip -P Yu=6SD6mvD9dU\!9B flag.zip
+Archive:  flag.zip
+  inflating: flag.txt                
+yakuhito@furry-catstation:~/ctf/unr21-ind$ cat flag.txt 
+ctf{
+{% endhighlight %}
+
+**Flag:** ctf{b1678d5ea41652817b6e8c4d5da8d0a418820b2fa13544c6158f260d091fc1e2}
 
 
 ## volatile_secret {#volatile_secret}
