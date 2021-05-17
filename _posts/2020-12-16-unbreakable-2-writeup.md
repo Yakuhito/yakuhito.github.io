@@ -1,5 +1,5 @@
 ---
-title: 'UNbreakable Romania #2 &#8211; WriteUp'
+title: 'UNbreakable Romania #2 &#8211; Writeup'
 author: yakuhito
 layout: post
 permalink: unbreakable-romania-2-writeup
