@@ -190,33 +190,6 @@ The last question is a bit more generic - you can find the answer in things by s
 **Flag 3:** ????
 **Flag 4:** places.sqlite
 
-## MysteriousOS {#mysteriousos}
-{% highlight bash %}
-“Please help us, an malicious employee has managed to install a volatility OS version on one of our machine Please help us determine the following”
-
-1. What is the profile of the OS used?
-2. Can you obtain more details about Windows Defender Services (WinDefend), from the image provided?We are interested în obtaining the PID process.
-3. We also need the SID of the System on Administrator account, can you please help?
-{% endhighlight %}
-
-Volatility has a built-in `imageinfo` function that can determine the OS profile of most memory dumps:
-
-{% highlight bash %}
-yakuhito@furry-catstation:~/ctf/unr21-tms$ volatility -f mysteriousOS2.bin imageinfo
-Volatility Foundation Volatility Framework 2.6
-INFO    : volatility.debug    : Determining profile based on KDBG search...
-          Suggested Profile(s) : No suggestion (Instantiated with no profile)
-                     AS Layer1 : FileAddressSpace (/home/yakuhito/ctf/unr21-tms/mysteriousOS2.bin)
-                      PAE type : No PAE
-yakuhito@furry-catstation:~/ctf/unr21-tms$
-{% endhighlight %}
-
-TODO
-
-**Flag 1:** ??
-**Flag 2:** ??
-**Flag 3:** ??
-
 ## hisix {#hisix}
 {% highlight bash %}
 This is an example taken from a real free training.
@@ -564,19 +537,6 @@ namespace this_is_wendys
 {% endhighlight %}
 
 **Flag:** ctf{c384d5fdbdb1208ce9de3d268150110ca282d3c24f5abf6d5c6736fdbb793ab5}
-
-## are-extraterrestrials-secretive {#are-extraterrestrials-secretive}
-{% highlight bash %}
-We finally have some alien flying saucer footage!!! AND THEIR SAUCER SOURCE CODE!!!!!! I wonder... do they have any secrets?
-
-The Pentagon also suspects Extraterrestrials sometimes have an uncanny tendency to mount their LEDs backwards
-
-Flag format: CTF{UPPERCASEANDUNDERSCORES}
-{% endhighlight %}
-
-TODO
-
-**Flag:** 
 
 ## escalaltion {#escalation}
 {% highlight bash %}
