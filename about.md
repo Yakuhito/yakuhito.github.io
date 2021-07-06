@@ -51,6 +51,10 @@ After the finals were over, I started taking interest in pentesting. I managed t
 <center><img class="post-image" src="/images/offsec-osce.png"></center>
 </div>
 
-I'm now playing CTFs, rooting boxes on HackTheBox and working on acquiring other certifications from Offensive Security.
+One of my goals for 2021 was to obtain the new OSCE3. I've already passed OSED and I'm now taking the course required for OSEP.
+
+<div>
+<center><img class="post-image" src="/images/offsec-osed.png"></center>
+</div>
 
 That's pretty much it! Thanks for reading :)
