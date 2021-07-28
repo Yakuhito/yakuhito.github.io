@@ -27,7 +27,7 @@ I also play the guitar - I'm still a beginner, so asking me to play something is
 <center><p style="color: grey; font-size: 16px;">Unrelated selfie with a unicorn from the US</p></center>
 </div>
 
-I usually try to stay active - before the pandemic, I used to go to the gym. After the quarantine started, I limited myself to running a few times per week (unless it's too cold).
+I usually try to stay active - before the pandemic, I used to go to the gym. After the quarantine started, I limited myself to running a few times per week (unless it's too cold). I'm now training for a half marathon.
 
 ## Cybersecurity
 In case the posts on this blog aren't enough: I love doing cool stuff with computers, especially breaking other people's cool stuff. I started playing CTFs in 9th grade, when two of my classmates convinced me to play [picoCTF 2018](https://ctftime.org/event/681) with them. Our team, Penteract, managed to get the 692nd place. A few weeks later, one of those colleagues and I participated at DevHacks 2018 (in the cybersecurity section), where I met what would later become [C0Br@](https://ctftime.org/team/70205) and one mentor whom I'm still in contact with.
