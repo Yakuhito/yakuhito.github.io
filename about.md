@@ -11,7 +11,7 @@ permalink: /about
 You've somehow managed to reach a part of the Internet about me. Also see: [Books I've Read](https://books.kuhi.to).
 
 ## General Background
-I'm a 17 year old high school student from Romania. I grew up in a loving family, surrounded by all kinds of animals: cats, dogs, fish, birds (two crows, a cuckoo<!-- that sounds funny --> and a seagull), snakes, frogs, tortoise, and an iguanna.
+I'm an 18 year old high school student from Romania. I grew up in a loving family, surrounded by all kinds of animals: cats, dogs, fish, birds (two crows, a cuckoo<!-- that sounds funny --> and a seagull), snakes, frogs, tortoise, and an iguanna.
 
 I used to be a straight-A student in middle school, but that was a long time ago. While I still take some subjects<!-- kind of --> seriously (e.g. Maths), I can't say I'm a good student in all of my classes.
 
@@ -51,10 +51,6 @@ After the finals were over, I started taking interest in pentesting. I managed t
 <center><img class="post-image" src="/images/offsec-osce.png"></center>
 </div>
 
-One of my goals for 2021 was to obtain the new OSCE3. I've already passed OSED and I'm now taking the course required for OSEP.
-
-<div>
-<center><img class="post-image" src="/images/offsec-osed.png"></center>
-</div>
+At the start of 2021, I decided that I wanted to become an [OSCE3](https://www.credly.com/badges/47dd7abe-936c-4f87-809b-cd35a23661e0). After taking and passing the exams for [OSED](https://blog.kuhi.to/offsec-exp301-osed-review) and [OSEP](https://twitter.com/yakuh1t0/status/1428294469242265603?s=20), I attained my goal and became the youngest OSCE3. 
 
 That's pretty much it! Thanks for reading :)
