@@ -76,7 +76,7 @@ A lot of people got worried by the 'unsafe' keywork in the opcode's name, so tha
 
 # YOLO
 
-I [posted a Tweet](https://twitter.com/yakuh1t0/status/1427245947705335815?s=20) that addressed Bram Cohen, the 'father' of Chia (and BitTorrent). I had hoped he'd view my project and say something about it, but probably my tag got lost among the thousands of notifications he receives daily - still, I don't regret trying and I'm sure I'll get his attention some day.
+I [posted a Tweet](https://twitter.com/yakuh1t0/status/1427245947705335815?s=20) that addressed Bram Cohen, the 'father' of Chia (and BitTorrent). I had hoped he'd view my project and say something about it, but probably my tag got lost among the thousands of notifications he receives daily - still, I don't regret trying and I'm sure I'll get his attention some day. (EDIT: [I did it!](https://twitter.com/bramcohen/status/1434949430063468545?s=20))
 
 ## README.md Update #2
 
