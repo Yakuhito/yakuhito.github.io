@@ -11,16 +11,16 @@ HTLC-based cross-chain swaps take a little bit too long, don't they?
 
 ## Intro
 
-If you've met me or seen [my Twitter](https://twitter.com/yakuh1t0) recently, you probably know about yakuSwap. In short, I made an attempt at enabling users to swap cryptocurrencies from two different blockchains in a trustless way. The biggest problem so far is time: it takes a little too long to perform a swap. With DHTLCs, I hope that I can bring the swap period down to 10-20 minutes, depending on the confirmation times of the blockchains involved.
+If you've met me or seen [my Twitter](https://twitter.com/yakuh1t0) recently, you probably know about yakuSwap. In short, I attempted to enable users to swap cryptocurrencies from two different blockchains in a trustless way. The biggest problem so far is time: it takes a little too long to perform a swap. With DHTLCs, I hope that I can bring the swap period down to 10-20 minutes, depending on the confirmation times of the blockchains involved.
 
-To understand why DHTLCs are better than HTLCs, you need to know why 'original' HTLC-based swaps take so much time. The process involves sending money to a contract, waiting for the transaction confirmation on one blockchain, sending money to a second contract, and then waiting for enough confirmations on the second blockchain (what happens afterwards is irrelevant for this examples). The order is transaction 1, confirmation 1, transaction 2, conirmation 2. Issuing transaction 2 before confirmation 1 is risky, as is proceeding before confirmation 2. But here's a simple question: What would happen if both transactions could be safely issued at the same time? That way, they could be confirmed in 'parallel', decreasing the time required for this timely step of a cross-chain atomic swap by around 50%.
+To understand why DHTLCs are better than HTLCs, you need to know why 'original' HTLC-based swaps take so much time. The process involves sending money to a contract, waiting for the transaction confirmation on one blockchain, sending money to a second contract, and then waiting for enough confirmations on the second blockchain (what happens afterward is irrelevant for this example). The order is transaction 1, confirmation 1, transaction 2, confirmation 2. Issuing transaction 2 before confirmation 1 is risky, as is proceeding before confirmation 2. But here's a simple question: What would happen if both transactions could be safely issued at the same time? That way, they could be confirmed in 'parallel', decreasing the time required for this step of a cross-chain atomic swap by around 50%.
 
 To understand how this is possible, let me define what a DHTLC is.
 
 ## Double-Hash Time-Locked Contracts
 
-As a recap, here's the rules that I used [when I explained HTLCs](https://blog.kuhi.to/crypto-sorcery-trading-cryptocurrencies-without-a-trusted-third-party):
-  * When the contract is created, the issuer provides an address that the coins locked in the contract need to be transferred to. The coins will only be sent if someone provides a value that, when hashed, matches a hardcoded hash. (hash lock)
+As a recap, here are the rules that I used [when I explained HTLCs](https://blog.kuhi.to/crypto-sorcery-trading-cryptocurrencies-without-a-trusted-third-party):
+  * When the contract is created, the issuer provides an address that the coins locked in the contract need to be transferred to. The coins will only be sent if someone provides a value that, when hashed, matches a hard-coded hash. (hash lock)
   * If the contract is more than n blocks old, all the locked money just returns to the sender. (time lock)
 
 A Double-Hash Time-Locked Contract (DHTLC) is very similar to a Hash Time-Locked Contract (or however you want to spell it; the acronym is still HTLC), except for one thing: instead of a hash, the contract uses two hashes to unlock the transaction. The time lock is identical, but the hash lock requires two values whose hashes need to match two hardcoded values.
@@ -64,7 +64,7 @@ Let's say that Alice and Bob want to make a cross-chain atomic swap. Here's how 
 Note that, if any step fails, both parties can just call off the swap by using the contract's time lock. Bob is the revealer - his hash is only secret until both transactions are confirmed. If he reveals it before Alice's transaction has enough confirmations, he risks losing his money. Similarly, Alice will not claim Bob's contract if it wasn't confirmed.
 
 ## Potential Improvements
-One significant improvement idea [shark0der](https://twitter.com/shark0der) had: Alice's contract (and Bob's, for that matter) could include a small 'prize' given to the person who submits the two secrets ('claims' it). If you've followed the example above, you know that Bob could lose his money if he went offline just as Alice claimed his contract. Alice could wait 5-10 minutes and use the time lock of her contract to receive her money back, even thoguh she claimed Bob's crpyto. To overcome this, we could add a 'bot incentive': if anyone claims Alice's contract using the two (now public) secrets, they will be awarded a small amount of money.
+One significant improvement idea [shark0der](https://twitter.com/shark0der) had: Alice's contract (and Bob's, for that matter) could include a small 'prize' given to the person who submits the two secrets ('claims' it). If you've followed the example above, you know that Bob could lose his money if he went offline just as Alice claimed his contract. Alice could wait 5-10 minutes and use the time lock of her contract to receive her money back, even though she claimed Bob's crypto. To overcome this, we could add a 'bot incentive': if anyone claims Alice's contract using the two (now public) secrets, they will be awarded a small amount of money.
 
 ## The End?
 Nope. There is still a lot of work to be done, funding to be secured, awesome people to be met. This is only the beginning.
