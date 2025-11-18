@@ -33,7 +33,7 @@ The next day, I worked on the two 15-point objectives. After finishing them in a
 * If something doesn't work, just move on to another target and return to it later
 * For THE OBJECTIVE, keep an open mind. You can exploit the target in a lot of completely different ways and some might be better than others. You will see what I'm talking about after you pass the exam
 * DO NOT PANIC
-* [Follow me on Twitter](https://twitter.com/yakuh1t0). This won't help you during the exam, but it would make me very happy.
+* [Follow me on Twitter](https://twitter.com/yakuhito). This won't help you during the exam, but it would make me very happy.
 
 ## Conclusion
 After going through the "OSCE Certified" section of the forum, I found out the reason my exploit didn't work. Of course, a silly mistake in my shellcode was to blame. The course material might be oudated, but the course itself and the exam meet the expectations you would have from an OffSec course: they are challenging, hard, but ultimately enjoyable. I can't wait to see the other 2 courses CTP gets replaced with.

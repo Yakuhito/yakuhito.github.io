@@ -48,7 +48,7 @@ Catchpole is at the core of the new design. It has around 1500 lines of Go code,
 
 Well, of course I'm looking forward to the future! Moreover, I'm now more aware than ever of the difficulties that developers face in the Chia ecosystem, from monetary ones to just needing a 'you did a great job there' message. With this in mind, I created the [FireAcademy.io Grants Program](https://docs.fireacademy.io/grants) - follow the link to find out more.
 
-I think that's everything I had to say about the update, but don't hesitate to [PM me](https://twitter.com/yakuh1t0) if you have any questions or suggestions.
+I think that's everything I had to say about the update, but don't hesitate to [PM me](https://twitter.com/yakuhito) if you have any questions or suggestions.
 
 
 *now please excuse me but university is starting tomorrow and I've done no pre-work whatsoever*

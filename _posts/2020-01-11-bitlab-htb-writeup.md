@@ -322,7 +322,7 @@ root
 
 The first 2 characters of the root proof are ‘8d’ 😉
 
-If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuh1t0) 🙂
+If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuhito) 🙂
 
 Until next time, hack the world.
 

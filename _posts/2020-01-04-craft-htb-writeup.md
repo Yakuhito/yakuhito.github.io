@@ -473,7 +473,7 @@ The password is the OTP code given by the application a few rows up. In my case 
 
 Also, the root flag starts with `83` 😉
 
-If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuh1t0) 🙂
+If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuhito) 🙂
 
 Until next time, hack the world.
 

@@ -407,7 +407,7 @@ I won't post any snippet here, as that method kind of plays with your terminal d
 
 The root proof starts with ‘2f’ 😉
 
-If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuh1t0) 🙂
+If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuhito) 🙂
 
 Until next time, hack the world.
 

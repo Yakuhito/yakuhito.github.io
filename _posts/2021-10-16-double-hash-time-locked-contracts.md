@@ -11,7 +11,7 @@ HTLC-based cross-chain swaps take a little bit too long, don't they?
 
 ## Intro
 
-If you've met me or seen [my Twitter](https://twitter.com/yakuh1t0) recently, you probably know about yakuSwap. In short, I attempted to enable users to swap cryptocurrencies from two different blockchains in a trustless way. The biggest problem so far is time: it takes a little too long to perform a swap. With DHTLCs, I hope that I can bring the swap period down to 10-20 minutes, depending on the confirmation times of the blockchains involved.
+If you've met me or seen [my Twitter](https://twitter.com/yakuhito) recently, you probably know about yakuSwap. In short, I attempted to enable users to swap cryptocurrencies from two different blockchains in a trustless way. The biggest problem so far is time: it takes a little too long to perform a swap. With DHTLCs, I hope that I can bring the swap period down to 10-20 minutes, depending on the confirmation times of the blockchains involved.
 
 To understand why DHTLCs are better than HTLCs, you need to know why 'original' HTLC-based swaps take so much time. The process involves sending money to a contract, waiting for the transaction confirmation on one blockchain, sending money to a second contract, and then waiting for enough confirmations on the second blockchain (what happens afterward is irrelevant for this example). The order is transaction 1, confirmation 1, transaction 2, confirmation 2. Issuing transaction 2 before confirmation 1 is risky, as is proceeding before confirmation 2. But here's a simple question: What would happen if both transactions could be safely issued at the same time? That way, they could be confirmed in 'parallel', decreasing the time required for this step of a cross-chain atomic swap by around 50%.
 
@@ -78,7 +78,7 @@ $ echo 'Double-Hash Time-Locked Contracts - yakuhito' | sha512sum
 bc4a340a7eda4caee65fded5945a1c8a6560b7bb4ffee2c4bee83b396659d0b2e76246d766f25b6e510ff480826588149e3f20b38d6ccfee9dd34b1fb75fc1a8  -
 -->
 
-If you want to support me, make sure you ~~send me some ETH~~ [follow me on Twitter](https://twitter.com/yakuh1t0).
+If you want to support me, make sure you ~~send me some ETH~~ [follow me on Twitter](https://twitter.com/yakuhito).
 
 *Note*: Paper wen? Never - I prefer writing blog posts with easy-to-understand examples.
 

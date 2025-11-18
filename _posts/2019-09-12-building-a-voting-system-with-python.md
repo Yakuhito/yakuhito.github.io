@@ -27,7 +27,7 @@ Yes, because:
   * The validator knows your identity and that you voted – but can’t unblind your vote, so it has no knowledge of whom you voted for.
   * The counter only knows that you have a vote signed by the validator, so it doesn’t know who you are.
 
-If you have a hard time understanding, leave a comment or PM me on [Twitter](https://twitter.com/yakuh1t0).
+If you have a hard time understanding, leave a comment or PM me on [Twitter](https://twitter.com/yakuhito).
 
 ## 1. Generating the RSA key
 
@@ -493,7 +493,7 @@ Here’s a short list I made of things that need to change in order to go into p
 
 While using software to vote might be less secure, it’s still an option to consider. In this article, we saw that it is relatively easy to implement such system. However, it is also hard to protect it against viruses. The program works in theory, but what if malware intercepts your request and modifies them so you vote for another party? Making it available on mobile phones only is more secure, however, it is still insecure.
 
-EDIT: You can find the code [here](https://github.com/Yakuhito/python-rsa-voting-system) and ask me questions [here](https://twitter.com/yakuh1t0).
+EDIT: You can find the code [here](https://github.com/Yakuhito/python-rsa-voting-system) and ask me questions [here](https://twitter.com/yakuhito).
 
 Until next time, hack the world.
 

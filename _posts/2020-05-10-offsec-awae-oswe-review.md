@@ -79,7 +79,7 @@ I once read an OSCP review having one of these and I thought it was cool, so her
    * I want to resume my exam
    * I am back from my break
    * I am ready to resume my exam
-* [Follow me on Twitter](https://twitter.com/yakuh1t0). This won't help you during the exam, but it would make me very happy.
+* [Follow me on Twitter](https://twitter.com/yakuhito). This won't help you during the exam, but it would make me very happy.
 
 ## Conclusion
 AWAE is not an entry-level course. While it is as challenging as you would expect any OffSec course to be, I am the living proof that you can pass it on your 1st attempt. Like the OSCP, the exam feels a lot harder than it is before you take it and a lot easier after you passed it. I really enjoyed going through the the course and taking the exam - which felt like a long, well-made, memorable web CTF. I would recommend this course to anyone who wants to sharpen their skills in web aplication testing - and anyone who likes hard challenges.

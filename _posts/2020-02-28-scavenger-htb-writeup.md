@@ -772,7 +772,7 @@ For those of you who don;t want to urldecode online, I just executed ;echo g3tPr
 
 The root flag starts with '4a' 😉
 
-If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuh1t0) 🙂
+If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuhito) 🙂
 
 Until next time, hack the world.
 

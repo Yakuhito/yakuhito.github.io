@@ -276,7 +276,7 @@ root@traverxec:/home/david/bin#
 
 The root proof starts with ‘9a’ 😉
 
-If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuh1t0) 🙂
+If you liked this post and want to support me, please [follow me on Twitter](https://twitter.com/yakuhito) 🙂
 
 Until next time, hack the world.
 
