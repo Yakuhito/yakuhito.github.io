@@ -11,7 +11,7 @@ I'm currently pursuing an MSc in Advanced Computer Science (AI Track) at the Uni
 I've graduated from [Minerva University](https://en.wikipedia.org/wiki/Minerva_University) with a double degree in biology (Cells and Organisms) and physics (Matter and Energy), as well as a minor in Mathematics. I almost managed to get a perfect GPA, had it not been for 2 elective business courses I took in my 2nd year. I've since learned my lesson.
 
 Over the past years, I've been pretty active in the [Chia](https://www.chia.net/) ecosystem. Some of the stuff I've built includes:
-- [TibetSwap](https://v2.tibetswap.io/), the chain's first AMM (decentralized exchange)
+- TibetSwap, the chain's first AMM (decentralized exchange)
 - [warp.green](https://www.warp.green/), a cross-chain messaging protocol between Chia and Base/Ethereum (the chain's first bridge)
 - [XCHandles](https://www.xchandles.com/), the chain's first fully decentralized name service (but we call them handles)
 - [Reward Distributors](https://rewards.fireacademy.io/), the chain's first liquidity farms (system to efficiently distribute rewards to a changing group of eligible people)
