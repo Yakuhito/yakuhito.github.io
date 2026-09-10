@@ -77,7 +77,7 @@ Current AI model capability means on-chain projects have to spend more effort on
  - **Well-advertised bug bounty programs**, which security researchers can easily find should they identify a bug first. Terms should be public, and the process should ideally run through a third party.
  - **Monitoring** to quickly notify the team of live exploit attempts.
 
-We [have announced](https://x.com/TibetSwap) a plan to distribute recovered funds at the same time as this post. Pending any change of plans, all funds should be returned to their owners by September 19, 2026.
+We [have announced](https://x.com/TibetSwap/status/2097993691633713553?s=20) a plan to distribute recovered funds at the same time as this post. Pending any change of plans, all funds should be returned to their owners by September 19, 2026.
 
 Following this incident, TibetSwap will not be re-launching on Chia at this time. A reflection and a record of the history of the protocol can be found [here](https://blog.kuhi.to/so-long-and-thanks-for-all-the-trades).
 
