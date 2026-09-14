@@ -7,7 +7,7 @@ image: images/tibetswap.jpg
 category: blog
 ---
 
-On August 24, 2026, we confirmed a critical bug in the TibetSwap v2 puzzles. The bug was ethically disclosed by [Eal](https://x.com/Ealrann). Nearly all protocol funds were recovered the same night. A small remainder was taken by a third party and returned two days later. This post covers the bug, the rescue operation, what our security process did and did not catch, and what happens next.
+On August 24, 2026, we confirmed a critical bug in the TibetSwap v2 puzzles. The bug was ethically disclosed by [Aurélien Mora (Eal)](https://x.com/Ealrann). Nearly all protocol funds were recovered the same night. A small remainder was taken by a third party and returned two days later. This post covers the bug, the rescue operation, what our security process did and did not catch, and what happens next.
 
 ## The Bug
 
@@ -87,7 +87,7 @@ The tibet repository will soon be updated with a note that includes a link to th
 
 ## Thanks
 
-A massive thank you to [Eal](https://x.com/Ealrann) for not only thinking to audit the code for the good of the community, but also responsibly disclosing it. Until October 1st, donations will be collected to add to the security-pot XCH and the latest batch of dev fees for the bounty. I hope the community's thanks, and the bounty we put together, make it obvious that reporting bugs this way is the right way to go.
+A massive thank you to [Aurélien Mora](https://x.com/Ealrann) for not only thinking to audit the code for the good of the community, but also responsibly disclosing it. Until October 1st, donations will be collected to add to the security-pot XCH and the latest batch of dev fees for the bounty. I hope the community's thanks, and the bounty we put together, make it obvious that reporting bugs this way is the right way to go.
 
 Second, thank you to Justin and Bram, as well as the broader Chia Network, Inc., for always being there during hard moments like these. 
 
