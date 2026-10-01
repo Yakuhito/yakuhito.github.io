@@ -2,7 +2,7 @@
 title: warp.green ERC-20 Bridge - Post-Mortem
 author: yakuhito
 layout: post
-permalink: /warpdotrgreen-erc20bridge-post-mortem
+permalink: /warpdotgreen-erc20bridge-post-mortem
 image: images/warpdotgreen.png
 category: blog
 ---
